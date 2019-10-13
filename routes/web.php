@@ -17,3 +17,10 @@
 
 
 Route::get('/index', 'Pages\PagesController@index');
+
+Route::get('/about', function () {
+    return view('pages.about');
+});
+
+
+// Route::get('/about','Pages\PagesController@about');
